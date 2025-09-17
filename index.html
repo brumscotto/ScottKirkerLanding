@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scott Kirker - Founder, Developer, Coach, Educator</title>
+    <meta name="description" content="Scott Kirker is a tech founder, full-stack developer, certified life coach, and AI education specialist. Creator of Grativerse and Ultimately apps, specializing in MEAN stack development and meaningful technology solutions.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+    </button>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <img src="attached_assets/generated_images/Professional_headshot_for_Scott_cc0462d5.png" 
+                     alt="Scott Kirker" 
+                     class="hero-image">
+                
+                <h1 class="hero-title">Scott Kirker</h1>
+                
+                <div class="hero-subtitle">
+                    <p class="role-text">
+                        Tech <span id="rotating-role" class="role-highlight">Founder</span>
+                    </p>
+                    <p class="hero-description">
+                        Building meaningful technology that connects people and creates lasting impact
+                    </p>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('work')">
+                        Explore My Work
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        Get in Touch
+                    </button>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/scottkirker/" target="_blank" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m5.839 4.877c0 .518-.196 1.02-.546 1.396s-.826.59-1.348.59c-.522 0-.998-.214-1.348-.59s-.546-.878-.546-1.396c0-.518.196-1.02.546-1.396s.826-.59 1.348-.59c.522 0 .998.214 1.348.59s.546.878.546 1.396z"></path>
+                            <path d="m3.945 7.347h3.75v12h-3.75z"></path>
+                            <path d="m16.625 7.347c-.711 0-1.422.225-2.044.647v-.647h-3.75v12h3.75v-6.197c0-1.09.225-2.147 1.559-2.147 1.334 0 1.354 1.246 1.354 2.216v6.128h3.75v-6.918c0-2.25-.486-3.982-3.115-3.982z"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:hello@scottkirker.com" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-16c-1.1 0-2-.9-2-2v-12c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <button class="scroll-down" onclick="scrollToSection('work')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6,9 12,15 18,9"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">
+                    Four passions, one mission: creating meaningful impact through technology, education, and human connection.
+                </p>
+            </div>
+
+            <div class="work-content">
+                <div class="roles-list">
+                    <div class="role-card active" data-role="founder">
+                        <div class="role-icon founder-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                            </svg>
+                        </div>
+                        <div class="role-info">
+                            <h3>Founder</h3>
+                            <p>Leading Ultimately LLC in creating social applications that emphasize intentionality and meaningful connection.</p>
+                        </div>
+                        <div class="role-arrow">→</div>
+                    </div>
+
+                    <div class="role-card" data-role="developer">
+                        <div class="role-icon developer-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16,18 22,12 16,6"></polyline>
+                                <polyline points="8,6 2,12 8,18"></polyline>
+                            </svg>
+                        </div>
+                        <div class="role-info">
+                            <h3>Developer</h3>
+                            <p>Full-stack web developer specializing in MEAN architecture and cross-platform mobile development.</p>
+                        </div>
+                        <div class="role-arrow">→</div>
+                    </div>
+
+                    <div class="role-card" data-role="coach">
+                        <div class="role-icon coach-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="m22 21-3-3m0 0a4 4 0 1 0-6-6 4 4 0 0 0 6 6z"></path>
+                            </svg>
+                        </div>
+                        <div class="role-info">
+                            <h3>Coach</h3>
+                            <p>Certified Professional Life Coach helping clients from diverse backgrounds achieve their goals.</p>
+                        </div>
+                        <div class="role-arrow">→</div>
+                    </div>
+
+                    <div class="role-card" data-role="educator">
+                        <div class="role-icon educator-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <div class="role-info">
+                            <h3>Educator</h3>
+                            <p>Entrepreneurial educator specializing in AI education, helping others navigate and leverage artificial intelligence.</p>
+                        </div>
+                        <div class="role-arrow">→</div>
+                    </div>
+                </div>
+
+                <div class="role-details">
+                    <div class="role-detail active" data-role="founder">
+                        <div class="detail-header">
+                            <div class="detail-icon founder-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                                </svg>
+                            </div>
+                            <h3>Founder</h3>
+                        </div>
+                        <p>Leading Ultimately LLC in creating social applications that emphasize intentionality and meaningful connection.</p>
+                        <ul class="detail-list">
+                            <li>Founder of Ultimately LLC</li>
+                            <li>Creator of Grativerse - wellness platform for social gratitude practice</li>
+                            <li>Creator of Ultimately - digital journaling platform for meaningful legacy</li>
+                            <li>Focus on intentional technology that connects people</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                            View My Projects →
+                        </button>
+                    </div>
+
+                    <div class="role-detail" data-role="developer">
+                        <div class="detail-header">
+                            <div class="detail-icon developer-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                            </div>
+                            <h3>Developer</h3>
+                        </div>
+                        <p>Full-stack web developer specializing in MEAN architecture and cross-platform mobile development.</p>
+                        <ul class="detail-list">
+                            <li>Full-stack MEAN architecture (MongoDB, Express, Angular, Node.js)</li>
+                            <li>Certified in Ionic cross-platform app development</li>
+                            <li>Expert in Capacitor native runtime for mobile deployment</li>
+                            <li>Experienced with Shopify, Weebly, Wix, Squarespace, and WordPress</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-detail" data-role="coach">
+                        <div class="detail-header">
+                            <div class="detail-icon coach-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="m22 21-3-3m0 0a4 4 0 1 0-6-6 4 4 0 0 0 6 6z"></path>
+                                </svg>
+                            </div>
+                            <h3>Coach</h3>
+                        </div>
+                        <p>Certified Professional Life Coach helping clients from diverse backgrounds achieve their goals.</p>
+                        <ul class="detail-list">
+                            <li>Certified Professional Life Coach (2018)</li>
+                            <li>Trained at Empowerment Coach Academy</li>
+                            <li>Experience with clients from photographers to investment bankers</li>
+                            <li>Focus on empowering individuals to reach their potential</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-detail" data-role="educator">
+                        <div class="detail-header">
+                            <div class="detail-icon educator-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <h3>Educator</h3>
+                        </div>
+                        <p>Entrepreneurial educator specializing in AI education, helping others navigate and leverage artificial intelligence.</p>
+                        <ul class="detail-list">
+                            <li>Specialty in AI Education and implementation</li>
+                            <li>Teaching entrepreneurial mindset and business development</li>
+                            <li>Bridging the gap between technology and practical application</li>
+                            <li>Empowering others to harness AI for meaningful innovation</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="scrollToSection('skills')">
+                            View AI & Tech Skills →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">
+                    Two applications that embody my mission of creating meaningful technology 
+                    that emphasizes intentionality and human connection.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.open('https://grativerse.io/', '_blank')">
+                    <div class="project-image">
+                        <img src="attached_assets/generated_images/Grativerse_app_mockup_1c679411.png" alt="Grativerse app mockup">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-icon grativerse-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                </svg>
+                            </div>
+                            <h3>Grativerse</h3>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Wellness</span>
+                            <span class="tag">Social</span>
+                            <span class="tag">Cross-platform</span>
+                        </div>
+                        <p class="project-description">
+                            A wellness platform that unlocks the power of a social gratitude practice
+                        </p>
+                        <p class="project-details">
+                            Grativerse combines the proven benefits of gratitude journaling with social connection, creating a supportive community where users can share their gratitude and inspire others.
+                        </p>
+                        <button class="project-btn">
+                            Visit Grativerse →
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="window.open('https://utlimate.ly/', '_blank')">
+                    <div class="project-image">
+                        <img src="attached_assets/generated_images/Ultimately_app_mockup_afb19748.png" alt="Ultimately app mockup">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-icon ultimately-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <h3>Ultimately</h3>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Legacy</span>
+                            <span class="tag">Journaling</span>
+                            <span class="tag">Family</span>
+                        </div>
+                        <p class="project-description">
+                            A digital journaling platform that helps you leave a meaningful legacy to future generations
+                        </p>
+                        <p class="project-details">
+                            Ultimately is more than just a journaling app – it's a legacy builder. Users can create meaningful content, document their life stories, and preserve their wisdom for future generations.
+                        </p>
+                        <button class="project-btn">
+                            Visit Ultimately →
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-footer">
+                <p class="projects-note">
+                    Both applications are built using modern cross-platform technologies 
+                    and emphasize user privacy and meaningful engagement.
+                </p>
+                <button class="btn btn-secondary" onclick="scrollToSection('skills')">
+                    View Technical Skills
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">
+                    A comprehensive blend of technical expertise and human-centered skills 
+                    developed through years of hands-on experience.
+                </p>
+            </div>
+
+            <div class="skills-content">
+                <div class="subsection-header">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16,18 22,12 16,6"></polyline>
+                        <polyline points="8,6 2,12 8,18"></polyline>
+                    </svg>
+                    <h3>Technical Skills</h3>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-icon fullstack-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5"></polygon>
+                                <polygon points="12,2 17,7 17,17 12,22 7,17 7,7"></polygon>
+                            </svg>
+                        </div>
+                        <h4>Full-Stack Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon ai-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a3 3 0 0 0-3 3c0 1.5 2 6 2 6s2-4.5 2-6a3 3 0 0 0-3-3z"></path>
+                                <path d="M12 22c-5.5 0-8.5-3-8.5-3s3-3 8.5-3 8.5 3 8.5 3-3 3-8.5 3z"></path>
+                            </svg>
+                        </div>
+                        <h4>AI & Education</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AI Integration</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">AI Education</span>
+                            <span class="skill-tag">Prompt Engineering</span>
+                            <span class="skill-tag">AI Tools</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon mobile-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h4>Mobile Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Ionic Framework</span>
+                            <span class="skill-tag">Capacitor</span>
+                            <span class="skill-tag">Cross-platform</span>
+                            <span class="skill-tag">iOS</span>
+                            <span class="skill-tag">Android</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon web-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                        </div>
+                        <h4>Web Platforms</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Shopify</span>
+                            <span class="skill-tag">WordPress</span>
+                            <span class="skill-tag">Squarespace</span>
+                            <span class="skill-tag">Wix</span>
+                            <span class="skill-tag">Weebly</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon backend-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="m3 5v14a9 3 0 0 0 18 0V5"></path>
+                                <path d="m3 12a9 3 0 0 0 18 0"></path>
+                            </svg>
+                        </div>
+                        <h4>Backend & Database</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">RESTful APIs</span>
+                            <span class="skill-tag">Database Design</span>
+                            <span class="skill-tag">Cloud Services</span>
+                            <span class="skill-tag">Authentication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <div class="subsection-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="6"></circle>
+                            <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                        </svg>
+                        <h3>Certifications & Credentials</h3>
+                    </div>
+
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <h4>Professional Life Coach</h4>
+                                <div class="cert-badge">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cert-meta">
+                                <span>Empowerment Coach Academy</span>
+                                <span>•</span>
+                                <span>2018</span>
+                            </div>
+                            <p>Comprehensive certification in life coaching methodologies and practices</p>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <h4>Ionic Framework Certification</h4>
+                                <div class="cert-badge">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cert-meta">
+                                <span>Ionic</span>
+                                <span>•</span>
+                                <span>2023</span>
+                            </div>
+                            <p>Advanced cross-platform mobile app development with Ionic and Capacitor</p>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <h4>AI Education Specialist</h4>
+                                <div class="cert-badge">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cert-meta">
+                                <span>Entrepreneurial Education</span>
+                                <span>•</span>
+                                <span>2024</span>
+                            </div>
+                            <p>Specialized training in AI education, implementation strategies, and entrepreneurial applications</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-footer">
+                    <div class="footer-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10"></polygon>
+                        </svg>
+                    </div>
+                    <p>Continuously learning and staying current with emerging technologies and best practices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">
+                    Whether you're looking for technical expertise, coaching guidance, or collaboration opportunities, 
+                    I'd love to hear from you. Let's build something meaningful together.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card" onclick="window.open('mailto:hello@scottkirker.com', '_blank')">
+                    <div class="contact-icon professional-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-16c-1.1 0-2-.9-2-2v-12c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Professional Inquiries</h3>
+                        <p>For business opportunities, partnerships, or technical consulting</p>
+                    </div>
+                    <div class="contact-action">
+                        Send Email →
+                    </div>
+                </div>
+
+                <div class="contact-card" onclick="window.open('https://www.linkedin.com/in/scottkirker/', '_blank')">
+                    <div class="contact-icon linkedin-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m5.839 4.877c0 .518-.196 1.02-.546 1.396s-.826.59-1.348.59c-.522 0-.998-.214-1.348-.59s-.546-.878-.546-1.396c0-.518.196-1.02.546-1.396s.826-.59 1.348-.59c.522 0 .998.214 1.348.59s.546.878.546 1.396z"></path>
+                            <path d="m3.945 7.347h3.75v12h-3.75z"></path>
+                            <path d="m16.625 7.347c-.711 0-1.422.225-2.044.647v-.647h-3.75v12h3.75v-6.197c0-1.09.225-2.147 1.559-2.147 1.334 0 1.354 1.246 1.354 2.216v6.128h3.75v-6.918c0-2.25-.486-3.982-3.115-3.982z"></path>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Connect on LinkedIn</h3>
+                        <p>Let's connect and expand our professional network</p>
+                    </div>
+                    <div class="contact-action">
+                        View Profile →
+                    </div>
+                </div>
+
+                <div class="contact-card" onclick="window.open('mailto:coaching@scottkirker.com', '_blank')">
+                    <div class="contact-icon coaching-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Life Coaching</h3>
+                        <p>Ready to unlock your potential? Schedule a coaching consultation</p>
+                    </div>
+                    <div class="contact-action">
+                        Book Session →
+                    </div>
+                </div>
+
+                <div class="contact-card" onclick="window.open('mailto:speaking@scottkirker.com', '_blank')">
+                    <div class="contact-icon speaking-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Speaking & Events</h3>
+                        <p>Available for conferences, workshops, and speaking engagements</p>
+                    </div>
+                    <div class="contact-action">
+                        Get in Touch →
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-cta">
+                <div class="cta-card">
+                    <div class="cta-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <h3>Open to Opportunities</h3>
+                    </div>
+                    <p>
+                        I'm always interested in discussing new projects, innovative ideas, 
+                        or opportunities to make a meaningful impact through technology and coaching.
+                    </p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="window.open('mailto:hello@scottkirker.com', '_blank')">
+                            hello@scottkirker.com
+                        </button>
+                        <button class="btn btn-secondary" onclick="window.open('https://www.linkedin.com/in/scottkirker/', '_blank')">
+                            LinkedIn Profile
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Scott Kirker. Built with passion for meaningful technology.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
