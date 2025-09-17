@@ -8,7 +8,9 @@ import {
   Database,
   Server,
   Layers,
-  Zap
+  Zap,
+  Brain,
+  GraduationCap
 } from 'lucide-react';
 
 interface SkillCategory {
@@ -26,10 +28,16 @@ const technicalSkills: SkillCategory[] = [
     color: 'from-blue-500 to-cyan-500'
   },
   {
+    title: 'AI & Education',
+    icon: Brain,
+    skills: ['AI Integration', 'Machine Learning Concepts', 'AI Education', 'Prompt Engineering', 'AI Tools'],
+    color: 'from-purple-500 to-pink-500'
+  },
+  {
     title: 'Mobile Development',
     icon: Smartphone,
     skills: ['Ionic Framework', 'Capacitor', 'Cross-platform Apps', 'iOS', 'Android'],
-    color: 'from-purple-500 to-pink-500'
+    color: 'from-indigo-500 to-purple-500'
   },
   {
     title: 'Web Platforms',
@@ -57,6 +65,12 @@ const certifications = [
     issuer: 'Ionic',
     year: '2023',
     description: 'Advanced cross-platform mobile app development with Ionic and Capacitor'
+  },
+  {
+    title: 'AI Education Specialist',
+    issuer: 'Entrepreneurial Education',
+    year: '2024',
+    description: 'Specialized training in AI education, implementation strategies, and entrepreneurial applications'
   }
 ];
 
@@ -83,7 +97,7 @@ export default function SkillsSection() {
             </h3>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {technicalSkills.map((category) => {
               const Icon = category.icon;
               
@@ -129,7 +143,7 @@ export default function SkillsSection() {
             </h3>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {certifications.map((cert, index) => (
               <Card 
                 key={index} 

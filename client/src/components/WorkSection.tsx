@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Building, Code, Users, ChevronRight, ExternalLink } from 'lucide-react';
+import { Building, Code, Users, GraduationCap, ChevronRight, ExternalLink } from 'lucide-react';
 
 interface RoleData {
   id: string;
@@ -51,6 +51,19 @@ const roles: RoleData[] = [
       'Focus on empowering individuals to reach their potential'
     ],
     color: 'from-green-500 to-teal-500'
+  },
+  {
+    id: 'educator',
+    title: 'Educator',
+    icon: GraduationCap,
+    description: 'Entrepreneurial educator specializing in AI education, helping others navigate and leverage artificial intelligence.',
+    details: [
+      'Specialty in AI Education and implementation',
+      'Teaching entrepreneurial mindset and business development',
+      'Bridging the gap between technology and practical application',
+      'Empowering others to harness AI for meaningful innovation'
+    ],
+    color: 'from-purple-500 to-pink-500'
   }
 ];
 
@@ -66,11 +79,11 @@ export default function WorkSection() {
             What I Do
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three passions, one mission: creating meaningful impact through technology and human connection.
+            Four passions, one mission: creating meaningful impact through technology, education, and human connection.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Role Selection */}
           <div className="space-y-4">
             {roles.map((role) => {
@@ -149,6 +162,19 @@ export default function WorkSection() {
                         onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                       >
                         View My Projects
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </Button>
+                    </div>
+                  )}
+                  
+                  {activeRole === 'educator' && (
+                    <div className="mt-8">
+                      <Button 
+                        className="w-full"
+                        data-testid="button-view-skills"
+                        onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
+                      >
+                        View AI & Tech Skills
                         <ExternalLink className="ml-2 h-4 w-4" />
                       </Button>
                     </div>

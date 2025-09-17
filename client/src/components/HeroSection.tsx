@@ -5,7 +5,7 @@ import headshot from '@assets/generated_images/Professional_headshot_for_Scott_c
 
 export default function HeroSection() {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ['Founder', 'Developer', 'Coach'];
+  const roles = ['Founder', 'Developer', 'Coach', 'Educator'];
 
   useEffect(() => {
     const interval = setInterval(() => {
