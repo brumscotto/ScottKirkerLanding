@@ -34,7 +34,8 @@
     --grativerse-gradient: linear-gradient(135deg, #ec4899, #f43f5e);
     --ultimately-gradient: linear-gradient(135deg, #f59e0b, #f97316);
     --professional-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6);
-    --linkedin-gradient: linear-gradient(135deg, #2563eb, #1e40af);
+    --linkedin-gradient: linear-gradient(135deg, #0077b5, #005582);
+    --github-gradient: linear-gradient(135deg, #24292e, #000000);
     --coaching-gradient: linear-gradient(135deg, #10b981, #14b8a6);
     --speaking-gradient: linear-gradient(135deg, #f59e0b, #ef4444);
     
@@ -801,6 +802,7 @@ section {
 
 .professional-icon { background: var(--professional-gradient); }
 .linkedin-icon { background: var(--linkedin-gradient); }
+.github-icon { background: var(--github-gradient); }
 .coaching-icon { background: var(--coaching-gradient); }
 .speaking-icon { background: var(--speaking-gradient); }
 

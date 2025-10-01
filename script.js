@@ -182,9 +182,11 @@ function initializeClickHandlers() {
             
             const cardText = card.innerHTML;
             if (cardText.includes('Professional Inquiries')) {
-                window.open('mailto:hello@scottkirker.com', '_blank');
+                window.open('mailto:mail@scottkirker.com', '_blank');
             } else if (cardText.includes('LinkedIn')) {
                 window.open('https://www.linkedin.com/in/scottkirker/', '_blank');
+            } else if (cardText.includes('GitHub')) {
+                window.open('https://github.com/brumscotto', '_blank');
             } else if (cardText.includes('Life Coaching')) {
                 window.open('mailto:coaching@scottkirker.com', '_blank');
             } else if (cardText.includes('Speaking')) {
