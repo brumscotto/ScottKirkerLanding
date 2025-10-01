@@ -474,7 +474,6 @@ section {
     border: 1px solid var(--card-border);
     border-radius: var(--radius-xl);
     overflow: hidden;
-    cursor: pointer;
     transition: var(--transition);
 }
 
@@ -956,7 +955,6 @@ section {
 /* Focus styles for accessibility */
 button:focus,
 .contact-card:focus,
-.project-card:focus,
 .role-card:focus {
     outline: 2px solid var(--primary);
     outline-offset: 2px;

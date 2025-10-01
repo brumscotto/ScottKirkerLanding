@@ -172,22 +172,8 @@ function initializeKeyboardNavigation() {
     });
 }
 
-// Handle project and contact card clicks
+// Handle contact card clicks
 function initializeClickHandlers() {
-    // Project cards
-    document.querySelectorAll('.project-card').forEach(card => {
-        card.addEventListener('click', (e) => {
-            // Prevent event from firing twice if button inside card is clicked
-            if (e.target.tagName === 'BUTTON') return;
-            
-            if (card.innerHTML.includes('Grativerse')) {
-                window.open('https://grativerse.io/', '_blank');
-            } else if (card.innerHTML.includes('Ultimately')) {
-                window.open('https://utlimate.ly/', '_blank');
-            }
-        });
-    });
-    
     // Contact cards
     document.querySelectorAll('.contact-card').forEach(card => {
         card.addEventListener('click', (e) => {
