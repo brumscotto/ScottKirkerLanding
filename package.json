@@ -1,0 +1,8 @@
+{
+  "name": "scott-kirker-website",
+  "version": "1.0.0",
+  "description": "Scott Kirker's personal website",
+  "scripts": {
+    "dev": "node serve.js"
+  }
+}
